@@ -20,7 +20,7 @@ install(){
 
 validate_install(){
     echo "****** Validating your installation ******"
-    docker run --gpus all nvidia/cuda:9.0-base nvidia-smi
+    docker run --gpus all nvidia/cuda:10.0-base nvidia-smi
 }
 
 install
